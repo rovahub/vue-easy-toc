@@ -24,8 +24,6 @@ Import the @rovahub/vue-easy-toc in your main JavaScript file in src/ folder.
 ```bash
 # src/main.js
 
-// main.js
-
 import Vue from "vue";
 import App from "./App.vue";
 import VueEasyTocPlugin from "@rovahub/vue-easy-toc";
