@@ -1,0 +1,67 @@
+{
+  "name": "@rovahub/vue-easy-toc",
+  "version": "1.0.0",
+  "description": "This Vue2 plugin allows you to automatically generate a table of contents and insert it into your webpage.",
+  "homepage": "https://github.com/rovahub/vue-easy-toc#readme",
+  "bugs": {
+    "url": "https://github.com/rovahub/vue-easy-toc/issues",
+    "email": "support@rovahub.vn"
+  },
+  "author": "RovaHub Technologies <info@rovahub.vn> (https://rovahub.vn)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovahub/vue-easy-toc.git",
+    "repository": "rovahub/vue-easy-toc"
+  },
+  "main": "dist/vue-easy-toc.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=production",
+    "lint": "vue-cli-service lint",
+    "test:unit": "NODE_ENV=test vue-cli-service test:unit"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "rovahub",
+    "rovahub technologies",
+    "vue-easy-toc",
+    "nuxt-easy-toc",
+    "table of contents"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "dist/*"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-eslint": "5.0.8",
+    "@vue/cli-plugin-unit-jest": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "@vue/test-utils": "2.4.1",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "29.6.4",
+    "core-js": "3.32.1",
+    "eslint": "8.48.0",
+    "eslint-plugin-vue": "9.17.0",
+    "sass": "1.57.1",
+    "sass-loader": "13.2.0",
+    "vue": "2.7.14",
+    "vue-loader": "15.10.2",
+    "vue-template-compiler": "2.7.14",
+    "webpack-cli": "5.1.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}
